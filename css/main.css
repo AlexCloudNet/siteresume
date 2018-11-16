@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+body{
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 10px;
+    overflow-x: hidden;
+    /* background: url("C:/Users/thepo/Desktop/resume/img/kora-derevo-priroda-6312.jpg"); */
+    /* background: url('C:/Users/thepo/Desktop/resume/img/tree.jpg'); */
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    background-size: cover;
+    user-select: none;
+}
+
+.header{
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.square{
+    width: 30%;
+    height: 10vw;
+    background: rgba(100, 198, 255, 0.5);
+    border-radius: 0 0 20px 0;
+    -webkit-border-radius: 0 0 20px 0;
+    -moz-border-radius: 0 0 20px 0;
+    -ms-border-radius: 0 0 20px 0;
+    -o-border-radius: 0 0 20px 0;
+}
+.square-2{
+    width: 40%;
+    height: 20vw;
+    background: rgba(0, 255, 98, 0.5);
+    border-radius: 0 0 20px 0;
+    -webkit-border-radius: 0 0 20px 0;
+    -moz-border-radius: 0 0 20px 0;
+    -ms-border-radius: 0 0 20px 0;
+    -o-border-radius: 0 0 20px 0;
+}
+.square-2-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 18vw;
+    background: rgba(0, 255, 98, 0.5);
+    border-radius: 0 0 0 20px;
+    -webkit-border-radius: 0 0 0 20px;
+    -moz-border-radius: 0 0 0 20px;
+    -ms-border-radius: 0 0 0 20px;
+    -o-border-radius: 0 0 0 20px;
+}
+
+.square-3{
+    position: absolute;
+    right: 16vw;
+    width: 54%;
+    height: 70vw;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.square-3 span{
+    position: relative;
+    margin-top: 5vw;
+    margin-left: 2vw;
+    display: block;
+    font-size: 8vw;
+    color: white;
+}
+
+.square-3 span:nth-child(2){
+    margin-top: 16vw;
+}
+
+.square-3 span:nth-child(3){
+    margin-top: 16vw;
+}
+
+.about{
+    position: relative;
+    margin-top: 12%;
+    margin-bottom: 5%;
+    right: 12%;
+    text-align: right;
+}
+.about>h1{
+    font-size: 5vw;
+    color: white;
+    
+}
+.about>span{
+    display: block;
+    margin-right: 15%;
+    font-size: 2vw;
+    color: lightgreen;
+}
+
+#plus{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* border: 2px solid green; */
+}
+
+.header h2{
+    position: absolute;
+    color: slateblue;
+    font-size: 3vw;
+    top: 40%;
+    left: 8%;
+}
+
+/* Page content =========================================================================*/
+
+.page_content{
+    width: 100%;
+    height: 80vw;
+    margin-top: 5%;
+    margin-left: -5%;
+}
+
+
+
+#about_section{
+    position: absolute;
+    left: -5%;
+    
+}
+
+.text_section{
+    width: 50%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.circle-1, .circle-2, .circle-3{
+    position: relative;
+    display: flex;
+    width: 15.2vw;
+    height: 15.2vw;
+    border-radius: 50%;
+    background: transparent;
+    left: 12.4vw;
+    top: 2.4vw;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    
+}
+.circle-2{
+    top: 12.2vw;
+
+}
+.circle-3{
+    top: 22vw;
+}
+
+
+/* .circle-hover:hover{
+    background: rgba(0, 255, 98, 0.5);
+    background: rgba(0, 238, 255, 0.5);
+} */
+
+.text_section span{
+    display: inline-block;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.rect-1{
+    position: absolute;
+    right: 0;
+    top: 70vw;
+    width: 10%;
+    height: 50vw;
+    background: rgba(100, 198, 255, 0.5);
+    border-radius: 20px 0 0 20px;
+    -webkit-border-radius: 20px 0 0 20px;
+    -moz-border-radius: 20px 0 0 20px;
+    -ms-border-radius: 20px 0 0 20px;
+    -o-border-radius: 20px 0 0 20px;
+}
+
+.rect-2{
+    position: absolute;
+    right: 0;
+    top: 110vw;
+    width: 90%;
+    height: 10vw;
+    background: rgba(100, 198, 255, 0.5);
+    border-radius: 20px 0 0 20px;
+    -webkit-border-radius: 20px 0 0 20px;
+    -moz-border-radius: 20px 0 0 20px;
+    -ms-border-radius: 20px 0 0 20px;
+    -o-border-radius: 20px 0 0 20px;
+}
+
+/* Portfolio section ================================================================= */
+
+.portfolio_section{
+    width: 100%;
+    height: 100vw;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio_section h2{
+    margin-left: -40%;
+    font-size: 5vw;
+    color: white;
+    z-index: 100;
+}
+.portfolio{
+    width: 90%;
+    height: 100%;
+    margin-top: 8%;
+    /* align-self: flex-start; */
+    display: grid;
+    /* display: -ms-grid; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 30vw);
+    grid-column-gap: 2vw;
+    grid-row-gap: 2vw;
+    /* grid-auto-rows: min-content; */
+    justify-items: start;
+    align-items: center;
+}
+
+.item{
+    width: 25vw;
+    height: 25vw;
+    border-radius: 10%;
+    border: 1.2vw solid rgb(63, 211, 221);
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+
+
+
+
+/* @media (min-width: 2000px) { 
+
+    .page_content{
+        height: 100vw;
+    }
+
+
+ } */
